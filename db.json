@@ -1,0 +1,167 @@
+{
+  "menu": [
+    {
+      "id": "2",
+      "category": "breakfast",
+      "name": "Spanish",
+      "price": "Kes 300"
+    },
+    {
+      "id": "3",
+      "category": "breakfast",
+      "name": "House Coffee",
+      "price": "Kes 150"
+    },
+    {
+      "id": "4",
+      "category": "meals",
+      "name": "Chicken Salad",
+      "price": "Kes 600"
+    },
+    {
+      "id": "5",
+      "category": "meals",
+      "name": "Masala Chips",
+      "price": "Kes 250"
+    },
+    {
+      "id": "6",
+      "category": "meals",
+      "name": "Spaghetti Bolognese",
+      "price": "Kes 2000"
+    },
+    {
+      "id": "7",
+      "category": "dessert",
+      "name": "Ice Cream",
+      "price": "Kes 200"
+    },
+    {
+      "id": "8",
+      "category": "dessert",
+      "name": "Vanilla Cake",
+      "price": "Kes 350"
+    },
+    {
+      "id": "9",
+      "category": "dessert",
+      "name": "Smoothie",
+      "price": "Kes 250"
+    },
+    {
+      "id": "10",
+      "category": "breakfast",
+      "name": "Pancakes with Maple Syrup",
+      "price": "Kes 400"
+    },
+    {
+      "id": "11",
+      "category": "meals",
+      "name": "Beef Burger with Fries",
+      "price": "Kes 800"
+    },
+    {
+      "id": "12",
+      "category": "meals",
+      "name": "Vegetarian Pizza",
+      "price": "Kes 700"
+    },
+    {
+      "id": "13",
+      "category": "dessert",
+      "name": "Chocolate Brownie",
+      "price": "Kes 300"
+    },
+    {
+      "id": "14",
+      "category": "dessert",
+      "name": "Fresh Orange Juice",
+      "price": "Kes 180"
+    },
+    {
+      "id": "15",
+      "category": "breakfast",
+      "name": "Iced Latte",
+      "price": "Kes 250"
+    },
+    {
+      "id": "16",
+      "category": "meals",
+      "name": "steak",
+      "price": "Kes 300"
+    },
+    {
+      "id": "17",
+      "category": "meals",
+      "name": "Garlic Bread",
+      "price": "Kes 150"
+    },
+    {
+      "id": "18",
+      "category": "meals",
+      "name": "Onion Rings",
+      "price": "Kes 200"
+    },
+    {
+      "id": "19",
+      "category": "breakfast",
+      "name": "Fruit Salad",
+      "price": "Kes 300"
+    },
+    {
+      "id": "20",
+      "category": "meals",
+      "name": "Fish and Chips",
+      "price": "Kes 900"
+    },
+    {
+      "id": "21",
+      "category": "meals",
+      "name": "Beef Steak with Mashed Potatoes",
+      "price": "Kes 1200"
+    },
+    {
+      "id": "22",
+      "category": "dessert",
+      "name": "Tiramisu",
+      "price": "Kes 400"
+    },
+    {
+      "id": "23",
+      "category": "dessert",
+      "name": "Hot Chocolate",
+      "price": "Kes 200"
+    },
+    {
+      "id": "25",
+      "category": "meals",
+      "name": "Buffalo Wings",
+      "price": "Kes 250"
+    },
+    {
+      "id": "a7b0",
+      "name": "rice",
+      "category": "meals",
+      "price": "200"
+    },
+    {
+      "id": "5a21",
+      "name": "Tea and Croissant ",
+      "category": "breakfast",
+      "price": "Kes 250"
+    },
+    {
+      "id": "a234",
+      "name": "Tea Masala",
+      "category": "breakfast",
+      "price": "Kes 150"
+    },
+    {
+      "id": "85c5",
+      "name": "Chapati",
+      "category": "breakfast",
+      "price": "50"
+    }
+  ],
+  "reservations": []
+}

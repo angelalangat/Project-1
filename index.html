@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Dishes Restaurant</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a href="#about" id="about-link">About</a></li>
+            <li class="nav-item"><a href="#menu" id="menu-link">Menu</a></li>
+            <li class="nav-item"><a href="#reservations" id="reservations-link">Reservations</a></li>
+            <li class="nav-item" id="login-link"><a href="#login">Login</a></li>
+            <li class="nav-item" id="logout-link" style="display: none;"><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div id="login-container" style="display: none;">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="header">
+        <h1 id="h1">The Best Dishes</h1>
+        <p>We have a proper passion for cooking and serve the best dishes from around the world</p>
+    </div>
+
+    <div id="about-section">
+        <h2>-About Us-</h2>
+        <p>At best dishes, we believe that dining is more than just a meal; it's an experience. Nestled in the heart of Nairobi, our restaurant offers a cozy atmosphere where guests can enjoy a unique culinary journey through the diverse flavors of the world. Our menu is a curated selection of the finest dishes, blending traditional recipes with contemporary techniques. Each plate is crafted with the freshest ingredients, sourced locally and internationally, to ensure every bite is bursting with flavor. Whether you're in the mood for a hearty breakfast, a sumptuous meal, or a delightful dessert, Best Dishes has something to satisfy every palate.</p>
+    </div>
+
+    <div id="menu-container">
+        <h2>-Our Menu-</h2>
+        <div id="menu-buttons">
+            <button id="breakFastbtn" type="button">Breakfast</button>
+            <button id="mealsBtn" type="button">Meals</button>
+            <button id="dessertBtn" type="button">Dessert</button>
+        </div>
+        <div id="menu-items"></div>
+    
+        <form id="add-menu-form">
+            <input type="text" id="new-item-name" placeholder="Item Name" required>
+            <input type="text" id="new-item-category" placeholder="Category" required>
+            <input type="text" id="new-item-price" placeholder="Price" required>
+            <button type="submit">Add Item</button>
+        </form>    
+    </div>
+    
+    <div id="container">
+        <div id="reservations-container">
+            <h2>Reservations</h2>
+            <form id="form">
+                <input type="text" placeholder="Name" required>
+                <input type="number" placeholder="Phone Number" required>
+                <input type="date" placeholder="Date" required>
+                <input type="time" placeholder="Time" required>
+                <input type="number" placeholder="Number of People" required>
+                <button type="submit">Make Reservation</button>
+            </form>    
+            <div id="reservations-list">
+                <h3>Reservations Made</h3>
+                <ul id="reservations" ></ul>
+            </div>
+        </div>
+        <div id="opening-time">
+            <h2>Opening Times</h2>
+            <p>
+                <span>Monday-Thursday: 08:00 - 22:00</span>
+                <span>Friday-Saturday: 08:00 - 23:00</span>
+                <span>Sunday: 10:00 - 17:00</span>
+            </p>
+        </div>
+
+        <div class="contact-address">
+            <h3>Contact</h3>
+            <p>
+              <span>2547123456789</span>
+              <span>Tom Mboya Ave</span>
+              <span>Kenyatta, 756 KE</span>
+            </p>
+          </div>
+    </div>
+    
+    <script src="index.js"></script>
+    <footer>
+        <p>Contact us at <span>info@restaurant.com</span></p>
+    </footer>
+</body>
+</html>
